@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Achievers Club - Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+
+</head>
+
+<body class="animate-fade">
+
+    <header class="py-6 px-4 sm:px-6 lg:px-8 sticky top-0 z-50 bg-gray-900/80 backdrop-blur-md shadow-lg">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <a href="#" class="text-3xl font-bold hero-gradient-text">Achievers Club</a>
+            <nav class="hidden md:flex space-x-6 items-center">
+                <a href="#about" class="text-gray-300 hover:text-yellow-400 transition-colors">About Us</a>
+                <a href="#why-us" class="text-gray-300 hover:text-yellow-400 transition-colors">Why Us?</a>
+                <a href="#mentors" class="text-gray-300 hover:text-yellow-400 transition-colors">Mentors</a>
+                <a href="#videos" class="text-gray-300 hover:text-yellow-400 transition-colors">Videos</a>
+                <a href="#testimonials" class="text-gray-300 hover:text-yellow-400 transition-colors">Testimonials</a>
+                <a href="https://forms.gle/yKdvvjSxvqKSGavA9" target="_blank" class="cta-button font-semibold py-2 px-6 text-sm">Register Now</a>
+            </nav>
+            <button id="menu-btn" class="md:hidden text-white text-3xl focus:outline-none" aria-label="Toggle Menu">
+                <svg id="menu-icon-open" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+                <svg id="menu-icon-close" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 hidden">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+        </div>
+        <div id="mobile-menu" class="md:hidden hidden flex-col mt-4 space-y-2 px-4 pb-4">
+            <a href="#about" class="block text-gray-300 hover:text-yellow-400 mobile-menu-item">About Us</a>
+            <a href="#why-us" class="block text-gray-300 hover:text-yellow-400 mobile-menu-item">Why Us?</a>
+            <a href="#mentors" class="block text-gray-300 hover:text-yellow-400 mobile-menu-item">Mentors</a>
+            <a href="#videos" class="block text-gray-300 hover:text-yellow-400 mobile-menu-item">Videos</a>
+            <a href="#testimonials" class="block text-gray-300 hover:text-yellow-400 mobile-menu-item">Testimonials</a>
+            <a href="https://forms.gle/yKdvvjSxvqKSGavA9" target="_blank" class="cta-button font-semibold py-3 px-6 text-sm mt-2 mobile-cta-button">Register Now</a>
+        </div>
+    </header>
+
+    <section id="hero" class="py-20 px-4 sm:px-6 lg:px-8 text-center bg-gray-800">
+        <div class="max-w-7xl mx-auto">
+            <h1 class="text-5xl md:text-6xl font-extrabold mb-6 fade-up">Building the next <span class="hero-gradient-text">MILLIONAIRES</span></h1>
+            <p class="text-2xl font-bold text-yellow-400 mb-4 fade-up" style="transition-delay: 0.2s;">WE WANT YOU!</p>
+            <p class="text-lg text-gray-300 mb-8 max-w-2xl mx-auto fade-up" style="transition-delay: 0.4s;">Join a
+                community of high-achievers dedicated to growth, innovation, and unparalleled success. We provide the
+                roadmap, you bring the drive.</p>
+            <a href="https://forms.gle/yKdvvjSxvqKSGavA9" target="_blank" class="cta-button text-xl font-bold py-4 px-10 inline-block fade-up" style="transition-delay: 0.6s;">REGISTER NOW</a>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto fade-up">
+            <h2 class="section-title">About Achievers Club</h2>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <img src="https://res.cloudinary.com/dpxcmzztu/image/upload/c_crop,ar_16:9/v1748618335/Screenshot_2025-05-30_190624_e1hrfh.png" alt="A diverse team of ambitious individuals collaborating on a project in a modern office." class="animated-img mx-auto w-full max-w-md" onerror="this.src='https://placehold.co/600x400/1f2937/facc15?text=Image+Not+Found'" />
+                <div class="text-lg text-gray-300 space-y-6">
+                    <p>At Achievers Club, we're not just a community; we're a launchpad for ambition. We empower our
+                        members with cutting-edge tools, personalized mentorship, and a network of driven individuals,
+                        all geared towards one goal: helping you thrive.</p>
+                    <p>Our core mission is to cultivate financial freedom and foster professional excellence. We believe
+                        that with the right support system and resources, extraordinary achievements are within reach
+                        for everyone.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="why-us" class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-800">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="section-title fade-up">Why Join Us?</h2>
+            <div class="grid sm:grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="card" style="transition-delay: 0.1s;">
+                    <div class="flex justify-center mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12 text-yellow-400" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-yellow-400 mb-2 text-center">Expert Mentors</h3>
+                    <p class="text-gray-300 text-center">Learn from seasoned business leaders, successful
+                        entrepreneurs, and industry creators who have walked the path.</p>
+                </div>
+                <div class="card" style="transition-delay: 0.2s;">
+                    <div class="flex justify-center mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12 text-yellow-400" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-yellow-400 mb-2 text-center">Peer Network</h3>
+                    <p class="text-gray-300 text-center">Connect with a vibrant community of ambitious, like-minded
+                        achievers. Collaborate, share, and grow together.</p>
+                </div>
+                <div class="card" style="transition-delay: 0.3s;">
+                    <div class="flex justify-center mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12 text-yellow-400" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6A2.25 2.25 0 0112.75 3.75H16.5A2.25 2.25 0 0118.75 6v1.5M10.5 6A2.25 2.25 0 008.25 3.75H4.5A2.25 2.25 0 002.25 6v1.5m8.25 0V12A2.25 2.25 0 0110.5 14.25H8.25A2.25 2.25 0 016 12V7.5m4.5 0V12A2.25 2.25 0 0012.75 14.25H15A2.25 2.25 0 0017.25 12V7.5m-6.75 9V18A2.25 2.25 0 008.25 20.25H10.5M13.5 16.5V18A2.25 2.25 0 0015.75 20.25H18A2.25 2.25 0 0020.25 18v-1.5m-6.75 0h.008v.008H13.5v-.008zm0 0H10.5m3 0H15m-4.5 0H8.25" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-yellow-400 mb-2 text-center">Launch Support</h3>
+                    <p class="text-gray-300 text-center">Access exclusive tools, proven knowledge frameworks, and
+                        robust systems designed to accelerate your growth and impact.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="mentors" class="py-20 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto fade-up">
+            <h2 class="section-title">Meet Our Mentors</h2>
+            <div class="bg-gray-800 p-8 md:p-12 rounded-xl shadow-2xl md:flex md:items-center md:gap-12 card">
+                <div class="md:w-1/3 text-center md:text-left mb-8 md:mb-0">
+                    <img src="https://res.cloudinary.com/dpxcmzztu/image/upload/v1748506301/WhatsApp_Image_2025-05-13_at_15.14.16_085891a1_pxmr11.jpg" alt="A headshot of Siddhu Nakkina, Lead Mentor at Achievers Club." class="animated-img rounded-full w-48 h-48 md:w-64 md:h-64 object-cover mx-auto md:mx-0 shadow-lg border-4 border-yellow-400" onerror="this.src='https://placehold.co/300x300/1f2937/facc15?text=Mentor+Image'" />
+                </div>
+                <div class="md:w-2/3">
+                    <h3 class="text-3xl font-bold text-yellow-400 mb-4">Siddhu Nakkina</h3>
+                    <p class="text-xl text-gray-300 mb-2 font-semibold">Lead Mentor</p>
+                    <p class="text-lg text-gray-400 mb-6 leading-relaxed">
+                        Siddhu is a visionary entrepreneur and an expert in digital marketing, business development,
+                        and tech innovation. With experience in building successful ventures and guiding aspiring
+                        achievers, Siddhu brings a wealth of knowledge and a passion for empowering others. He is
+                        dedicated to helping you navigate challenges, seize opportunities, and unlock your full
+                        potential.
+                    </p>
+                    <a href="#register" class="cta-button font-semibold py-3 px-8 text-lg">Get Mentorship</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="videos" class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-900">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="section-title fade-up">Watch Our Journey & Success Stories</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mt-10">
+
+                <div class="video-placeholder-card fade-up" style="transition-delay: 0.1s;">
+                    <video controls autoplay muted playsinline width="100%" height="250">
+                        <source src="https://res.cloudinary.com/dpxcmzztu/video/upload/v1748636477/Watch_till_end_Trust_the_process_siddhunakkina07_sainakkina06_saikumarpanduri__explore_entrepreneur_hyderabadcity_workfromhome_explorepage_icpm09.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <div class="video-placeholder-card fade-up" style="transition-delay: 0.2s;">
+                    <video controls autoplay muted playsinline width="100%" height="250">
+                        <source src="https://res.cloudinary.com/dpxcmzztu/video/upload/v1748636472/WhatsApp_Video_2025-05-30_at_21.09.39_d29ab755_oc2u5i.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <div class="video-placeholder-card fade-up" style="transition-delay: 0.3s;">
+                    <video controls autoplay muted playsinline width="100%" height="250">
+                        <source src="https://res.cloudinary.com/dpxcmzztu/video/upload/v1748636473/WhatsApp_Video_2025-05-30_at_21.09.27_ec411c4e_ubnuhb.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <div class="video-placeholder-card fade-up" style="transition-delay: 0.4s;">
+                    <video controls autoplay muted playsinline width="100%" height="250">
+                        <source src="https://res.cloudinary.com/dpxcmzztu/video/upload/v1748636477/WhatsApp_Video_2025-05-30_at_21.09.18_1243f14b_fol8a9.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <div class="video-placeholder-card fade-up" style="transition-delay: 0.5s;">
+                    <video controls autoplay muted playsinline width="100%" height="250">
+                        <source src="https://res.cloudinary.com/dpxcmzztu/video/upload/v1748636469/First_international_Trip_baku_azerbaycan_azerbaijan_international_entrepreneur_tjh3es.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <div class="video-placeholder-card fade-up" style="transition-delay: 0.6s;">
+                    <video controls autoplay muted playsinline width="100%" height="250">
+                        <source src="https://res.cloudinary.com/dpxcmzztu/video/upload/v1748636470/Link_in_my_bio_....._explore_entrepreneur_work_vizag_achieve_mm0mff.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-800">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="section-title fade-up">What Our Members Say</h2>
+            <div class="grid md:grid-cols-3 gap-8 mt-10">
+                <div class="testimonial-card" style="transition-delay: 0.1s;">
+                    <img src="https://res.cloudinary.com/dpxcmzztu/image/upload/v1748611868/IMG_1026_wxk4kq.jpg" alt="A smiling headshot of Ujjwal Doppalapudi." onerror="this.src='https.placehold.co/100x100/f3f4f6/111827?text=Member'" />
+                    <p class="text-gray-300 italic">“From struggling to make ends meet to consistently earning
+                        ₹2L/month as a digital creator – this community’s guidance was invaluable.”</p>
+                    <p class="mt-4 font-semibold text-yellow-400">— Ujjwal Doppalapudi</p>
+                </div>
+                <div class="testimonial-card" style="transition-delay: 0.2s;">
+                    <img src="https://res.cloudinary.com/dpxcmzztu/image/upload/v1748612972/Screenshot_2025-05-30_191857_ilvirw.png" alt="A professional headshot of Sai Nakkina." onerror="this.src='https.placehold.co/100x100/f3f4f6/111827?text=Member'" />
+                    <p class="text-gray-300 italic">“The network here is absolutely insane. I connected with key
+                        collaborators and landed major clients in my first week.”</p>
+                    <p class="mt-4 font-semibold text-yellow-400">— Sai Nakkina</p>
+                </div>
+                <div class="testimonial-card" style="transition-delay: 0.3s;">
+                    <img src="https://res.cloudinary.com/dpxcmzztu/image/upload/v1748614044/Screenshot_2025-05-30_193645_mou89r.png" alt="A confident headshot of Varshith Karri." onerror="this.src='https.placehold.co/100x100/f3f4f6/111827?text=Member'" />
+                    <p class="text-gray-300 italic">“Achievers Club was a game-changer. The mentorship helped me launch
+                        my business within six months!”</p>
+                    <p class="mt-4 font-semibold text-yellow-400">— Varshith Karri</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="register" class="py-20 px-4 sm:px-6 lg:px-8 bg-yellow-50 text-gray-800">
+        <div class="max-w-3xl mx-auto text-center fade-up">
+            <h2 class="text-4xl font-bold mb-6 text-gray-900">Ready to Elevate Your Journey?</h2>
+            <p class="text-lg text-gray-700 mb-8">
+                Join the Achievers Club today. Fill out the form below, or click the "Register Now" buttons in the
+                header or hero section to access our streamlined application via Google Forms.
+            </p>
+            <form id="local-registration-form" class="space-y-6 bg-white p-8 rounded-xl shadow-xl">
+                <div>
+                    <label for="name" class="block text-sm font-medium text-gray-700 text-left mb-1">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="e.g., John Doe" class="w-full p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500" required />
+                </div>
+                <div>
+                    <label for="email" class="block text-sm font-medium text-gray-700 text-left mb-1">Email
+                        Address</label>
+                    <input type="email" id="email" name="email" placeholder="e.g., you@example.com" class="w-full p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500" required />
+                </div>
+                <div>
+                    <label for="phone" class="block text-sm font-medium text-gray-700 text-left mb-1">Phone Number
+                        (Optional)</label>
+                    <input type="tel" id="phone" name="phone" placeholder="e.g., +91 98765 43210" class="w-full p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500" />
+                </div>
+                <div>
+                    <label for="why-join" class="block text-sm font-medium text-gray-700 text-left mb-1">Why do you want
+                        to join?</label>
+                    <textarea id="why-join" name="why-join" placeholder="Share your goals and aspirations..." class="w-full p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500" rows="4"></textarea>
+                </div>
+                <button type="submit" class="cta-button py-3 px-8 font-bold w-full text-lg">Submit Application</button>
+                <p id="form-message" class="mt-4 text-sm"></p>
+            </form>
+            <p class="mt-6 text-gray-600">Alternatively, <a href="https://forms.gle/yKdvvjSxvqKSGavA9" target="_blank" class="text-yellow-600 hover:text-yellow-700 font-semibold underline">register using our Google
+                    Form</a>.</p>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-gray-400 py-10 px-4 text-center">
+        <p class="mb-2">© <span id="current-year"></span> Achievers Club. All rights reserved.</p>
+        <div class="space-x-6">
+            <a href="https://www.instagram.com/sidhunakkina?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" class="hover:text-yellow-400 transition-colors">Instagram</a>
+            <a href="#" class="hover:text-yellow-400 transition-colors">LinkedIn</a> <a href="#" class="hover:text-yellow-400 transition-colors">Privacy Policy</a>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
